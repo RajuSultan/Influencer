@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
- /* nav menu and header */
+ /*------------ nav menu and header------------ */
 .main-header{
     padding-left: 10px;
     padding-right: 20px;
@@ -15,6 +15,9 @@ body{
     justify-content: space-between;
     padding-left: 10px;
     
+}
+.nev-head h1 span{
+    color: orangered;
 }
 .nev-head{
     flex-basis: 40%;
@@ -38,7 +41,7 @@ body{
 }
 .manu ul li:hover a{
     transition: 0.5s;
-    color: aqua;
+    color: orangered;
 
 }
 .manu ul li a {
@@ -47,7 +50,7 @@ body{
     
     color: black;
   }
- /* section top-details */
+ /*--------------- section top-details--------------- */
  .top-details{
     margin: 20px 26px;
     
@@ -120,7 +123,7 @@ body{
     width: 80%;
     margin: auto;
       margin-top: auto;
-    margin-top: 5%;
+    margin-top: 5%;position: relative;
     
   }
   .item {
@@ -141,11 +144,15 @@ body{
   .doller{
       font-size: 25px;
   }
+  .see-more{
+      border: none;
+      background: transparent;
+  }
   .see-more a {
     margin-top: 2%;
     position: absolute;
-    bottom: -160%;
-    right: 10%;
+    bottom: 0px;
+    right: 0px;
     color: orangered;
     background: transparent;
     border: none;
@@ -161,14 +168,10 @@ body{
         .item {
             width: 222px;
           }
-          .see-more a {
-            position: absolute;
-            bottom: -917%;
-            right: 10%;
-          }
+          
   }
 
-  /* section videos */
+  /*---------------- section videos -----------------*/
 
   .video-container span{
       color: orangered;
@@ -205,13 +208,19 @@ height: 400px;
   
 
  
-
+/*------- footer------- */
   footer{
       text-align: center;
       color: white;
       background-color: rgb(110, 104, 104);
       height: 200px;
       padding-top: 40px;
+  }
+  footer h1 {
+    color: #000;
+  }
+  footer p{
+      color: black;
   }
 
   
